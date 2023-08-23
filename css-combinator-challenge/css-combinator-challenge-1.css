@@ -21,13 +21,13 @@ p.red-para {
     margin-top: 10px;
 }
 
-div+p~p{
-    color: brown;
-}
-
-.coral-para {
+div+p{
     color: coral;
     font-weight: bold;
+}
+
+div~div+p~p{
+    color: brown;
 }
 
 
