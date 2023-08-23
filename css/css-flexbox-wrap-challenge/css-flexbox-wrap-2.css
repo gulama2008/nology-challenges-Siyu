@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#blueCard{
+    background-color: blue;
+}
+
+#yellowCard{
+    background-color: yellow;
+}
+
+#pinkCard{
+    background-color: pink;
+}
+
+#redCard{
+    background-color: red;
+}
+
+#greenCard{
+    background-color: green;
+}
+
+.card-container{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
