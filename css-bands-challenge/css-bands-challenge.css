@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: orangered;
+    margin: 20px;
+}
+
+.subtitle{
+    text-align: right;
+    margin-right: 20px;
+}
+
+main{
+    margin:20px 10px;
+}
+
+h2{
+    color: green;
+    margin: 30px 0px;
+}
+
+.bands-container{
+    border: 3px solid black;
+    padding: 0px 50px;
+}
+
+.band-list-item{
+    font-weight: bold;
+}
+
+.special-style{
+    font-style: italic;
+    text-decoration: underline;
+}
