@@ -2,22 +2,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.outerContainer{
+.outer-container{
     border: 5px solid orangered;
     padding: 30px 0px;
     background-color: rgb(23, 201, 49);
 }
 
-.innerContainer{
+.inner-container{
     border: 3px solid orangered;
     background-color: pink;
     padding: 30px;
 }
 
-.titleContainer{
-
-}
-
-.contentContainer{
+.content-container{
     margin: 30px;
 }
