@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blueCard{
+    background-color: blue;
+}
+
+#yellowCard{
+    background-color: yellow;
+}
+
+#pinkCard{
+    background-color: pink;
+}
+
+#redCard{
+    background-color: red;
+}
+
+#greenCard{
+    background-color: green;
+}
+
+#orangeCard{
+    background-color: orange;
+}
+
+#grayCard{
+    background-color: gray;
+}
+
+#lightBlueCard{
+    background-color: lightblue;
+}
+
+.flex-container{
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+}
+
+.flex-row{
+    display: flex;
+    gap: 20px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-container{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
