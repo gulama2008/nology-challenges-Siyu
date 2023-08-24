@@ -3,16 +3,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-.flex-container{
-    width: 900px;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    gap: 20px;
-}
 
 #blueCard{
     background-color: blue;
@@ -44,6 +34,17 @@ body{
 
 #lightBlueCard{
     background-color: lightblue;
+}
+
+.flex-container{
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
 }
 
 .flex-row{
