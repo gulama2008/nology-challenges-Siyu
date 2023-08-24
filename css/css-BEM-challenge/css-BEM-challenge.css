@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section--dashed{
+    border: 3px dashed green;
+}
+
+.section--solid{
+    border: 3px solid orange;
+}
+
+.section__title--center{
+    text-align: center;
+}
+
+.section__content{
+    text-decoration: line-through;
+    color: blue;
+}
+
+.section__content--right{
+    text-align: right;
+}
+
+
+
