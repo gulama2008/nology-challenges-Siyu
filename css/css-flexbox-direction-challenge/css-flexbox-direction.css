@@ -40,7 +40,7 @@ body{
     width: 600px;
     height: 700px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
@@ -49,12 +49,13 @@ body{
 
 .flex-row{
     display: flex;
+    flex-direction: row-reverse;
     gap: 20px;
 }
 
 .flex-column{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 20px;
 }
 
