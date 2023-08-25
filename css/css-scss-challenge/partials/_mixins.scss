@@ -1,0 +1,31 @@
+@mixin sm-screen{
+    @media only screen and (max-width:600px){
+        @content;
+    }
+}
+
+@mixin md-screen{
+    @media only screen and (min-width:601px) and (max-width:900px){
+        @content;
+    }
+}
+
+@mixin lg-screen{
+    @media only screen and (min-width:901px){
+        @content;
+    }
+}
+
+@mixin flex($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin size($width,$height){
+    width: $width;
+    height: $height;
+}
+
+@mixin color($color){
+    background-color: $color;
+}
