@@ -1,0 +1,65 @@
+@use "./partials/mixins.scss";
+
+body{
+    @include mixins.sm-screen{
+        @include mixins.flex(column)
+    }
+
+    @include mixins.md-screen{
+        @include mixins.flex(row)
+    }
+
+    @include mixins.lg-screen{
+        @include mixins.flex(row)
+    }
+}
+
+.stripe{
+  @include mixins.sm-screen{
+    @include mixins.size(300px,70px)
+  }
+  
+  @include mixins.md-screen{
+       @include mixins.size(100px,200px)
+    }
+
+    @include mixins.lg-screen{
+        @include mixins.size(100px,200px)
+    }
+}
+
+.stripe--1{
+    @include mixins.sm-screen{
+        @include mixins.color(black)
+  }  
+  @include mixins.md-screen{
+        @include mixins.color(black)
+  }  
+  @include mixins.lg-screen{
+        @include mixins.color(green)
+  }  
+}
+
+.stripe--2{
+    @include mixins.sm-screen{
+        @include mixins.color(red)
+  }  
+  @include mixins.md-screen{
+       @include mixins.color(yellow)
+  }  
+  @include mixins.lg-screen{
+        @include mixins.color(white)
+  }  
+}
+
+.stripe--3{
+    @include mixins.sm-screen{
+        @include mixins.color(yellow)
+  }  
+  @include mixins.md-screen{
+        @include mixins.color(red)
+  }  
+  @include mixins.lg-screen{
+        @include mixins.color(orange)
+  }  
+}
