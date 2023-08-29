@@ -1,8 +1,10 @@
 let n = "123";
-if (n % 2) {
-    console.log("n is odd");
-} else if (typeof n == "number" && n % 2 === 0) {
-    console.log("n is even");
+if (typeof n ==="number") {
+    if (n % 2) {
+        console.log("n is odd");
+    } else { 
+        console.log("n is even");
+    }
 } else { 
     console.log("Invalid n");
 }
