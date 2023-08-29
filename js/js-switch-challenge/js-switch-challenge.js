@@ -28,41 +28,48 @@ switch (day) {
 
 let parent1="blue";
 let parent2 = "green";
+let brown;
+let green;
+let blue;
 
 switch (true) {
-  case parent1 === "brown" && parent2 === "brown":
-    console.log(
-      "Your eye colours are brown and brown, the chances of your child having brown eyes is 75%, green is 18.75% and blue is 6.25%"
-    );
-    break;
-  case parent1 === "green" && parent2 === "brown":
-  case parent2 === "green" && parent1 === "brown":
-    console.log(
-      "Your eye colours are green and brown, the chances of your child having brown eyes is 50%, green is 37.5% and blue is 12.5%"
-    );
-    break;
-  case parent1 === "blue" && parent2 === "brown":
-  case parent2 === "blue" && parent1 === "brown":
-    console.log(
-      "Your eye colours are blue and brown, the chances of your child having brown eyes is 50%, green is 0% and blue is 50%"
-    );
-    break;
-  case parent1 === "green" && parent2 === "green":
-    console.log(
-      "Your eye colours are green and green, the chances of your child having brown eyes is less than 1%, green is 75% and blue is 25%"
-    );
-    break;
-  case parent1 === "green" && parent2 === "blue":
-  case parent2 === "green" && parent1 === "blue":
-    console.log(
-      "Your eye colours are green and blue, the chances of your child having brown eyes is 0%, green is 50% and blue is 50%"
-    );
-    break;
-  case parent1 === "blue" && parent2 === "blue":
-    console.log(
-      "Your eye colours are blue and blue, the chances of your child having brown eyes is 0%, green is 1% and blue is 99%"
-    );
-    break;
+    case parent1 === "brown" && parent2 === "brown":
+        brown = 75;
+        green = 18.75;
+        blue = 6.25;
+        break;
+    case parent1 === "green" && parent2 === "brown":
+    case parent2 === "green" && parent1 === "brown":
+        brown = 50;
+        green = 37.5;
+        blue = 12.5;
+        break;
+    case parent1 === "blue" && parent2 === "brown":
+    case parent2 === "blue" && parent1 === "brown":
+        brown = 50;
+        green = 0;
+        blue = 50;
+        break;
+    case parent1 === "green" && parent2 === "green":
+        brown = "less than 1";
+        green = 75;
+        blue = 25;
+        break;
+    case parent1 === "green" && parent2 === "blue":
+    case parent2 === "green" && parent1 === "blue":
+        brown = 0;
+        green = 50;
+        blue = 50;
+        break;
+    case parent1 === "blue" && parent2 === "blue":
+        brown = 0;
+        green = 1;
+        blue = 99;
+        break;
 }
+
+console.log(
+  `Your eye colours are ${parent1} and ${parent2}, the chances of your child having brown eyes is ${brown}%; green is ${green}% and blue is ${blue}%`
+);
 
 
